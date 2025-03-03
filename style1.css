@@ -1,0 +1,239 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f0f8ff;
+}
+
+
+header {
+    background-color: #ff8c00;
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+}
+
+h1 {
+    text-align: left;
+    background-image: linear-gradient(Blue, lightblue);
+    padding: 30px;
+    border-radius: 5px;
+    text-align: center;
+}
+
+h1:hover::before{
+    content: url("/uploads/2021/03/click-38743_1280%201_0_1614962641.png"
+    );
+    width: 20px;
+    display: inline-block;
+    margin-right:15px ;
+    opacity: 1;
+}
+
+h1:hover::after{
+    content: url("/uploads/2021/03/click-38743_1280%201_0_1614962641.png"
+    );
+
+    width: 20px;
+    display: inline-block;
+    margin-left:15px ;
+    opacity: 1;
+}
+
+
+
+nav {
+    text-align: center;
+    width: 100%;
+    background-color: #ff8c00;
+    padding: 10px;
+}
+
+nav a {
+    margin: 0 15px;
+    text-decoration: none;
+    color: #fff;
+    font-size: 18px;
+    
+    transition: 0.3s;
+}
+
+nav a:hover {
+    text-decoration:underline ;
+    color: #000;
+}
+
+
+section {
+    padding: 20px;
+    margin: 20px;
+    border-radius: 10px;
+}
+
+
+.mod {
+    background-image: url("https://learn.logikaschool.com/uploads/student/4784915/67c1ed5e78d9c.jpg");
+    background-size: cover;
+    display: flex;
+    padding: 40px;
+    border-radius: 10px;
+    color:black;
+    
+}
+
+
+.stat, article.house, article.coast, article.turne {
+    margin: 20px;
+    background: rgba(255, 255, 255, 0.9);
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+   
+
+}
+
+
+.sss {
+    background-image: url("https://learn.logikaschool.com/uploads/student/4784915/67c1efc099d35.jpg");
+    background-size: cover;
+    color: black;
+    display: flex;
+ 
+
+}
+
+
+
+
+
+.spain {
+    background-image: url("https://learn.logikaschool.com/uploads/student/4784915/67c1f52589725.jpg");
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+
+.tourist {
+    background-image: url("https://learn.logikaschool.com/uploads/student/4784915/67c1f864ce783.jpg");
+    background-size: cover;
+    padding: 40px;
+    display: flex;
+}
+
+
+a {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #ff8c00;
+    color: white;
+    text-decoration: none;
+    border-radius: 5px;
+    font-weight: bold;
+    transition: 0.3s;
+}
+
+a:hover {
+    background-color: #e07b00;
+}
+
+
+footer {
+    background-color: #ff8c00;
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+    margin-top: 20px;
+}
+
+
+@media (max-width: 768px) {
+    nav a {
+        display: block;
+        margin: 10px 0;
+    }
+
+    section {
+        margin: 10px;
+        padding: 15px;
+    }
+
+    h1 {
+        text-align: center;
+        font-size: 24px;
+    }
+}
+
+.video{
+   
+}
+
+
+
+.mail{
+    display: flex;
+    position: relative;
+}
+
+.reverse{
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #ff8c00;
+    color: white;
+    text-decoration: none;
+    border-radius: 5px;
+    font-weight: bold;
+    transition: 0.3s;
+}
+
+
+.reverse:hover{
+    text-decoration:underline ;
+    color: black;
+}
+
+.with{
+   display: inline-block;
+    padding: 10px 20px;
+    background-color: #ff8c00;
+    color: white;
+    text-decoration: none;
+    border-radius: 5px;
+    font-weight: bold;
+    transition: 0.3s; 
+}
+
+.with:hover{
+    text-decoration:underline ;
+    color: black;
+}
+
+.cloudy{
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #ff8c00;
+    color: white;
+    text-decoration: none;
+    border-radius: 5px;
+    font-weight: bold;
+    transition: 0.3s; 
+}
+
+.cloudy:hover{
+     text-decoration:underline ;
+    color: black;
+}
+
+
+.bohdan{
+    display: flex;
+}
+
+
+.aboba{
+    display: block;
+    margin-top: 0px;
+}
+
