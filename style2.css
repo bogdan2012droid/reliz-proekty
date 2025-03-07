@@ -5,7 +5,29 @@ body {
     padding: 0;
 }
 
+.container {
+    display: flex;
+    justify-content: center;
+}
 
+.gallery {
+    display: flex;
+    width: 500px;
+    flex-wrap: wrap;
+}
+
+.gallery img {
+    opacity: 0.2;
+    width: 150px;
+    height: 200px;
+    
+}
+
+.gallery img:hover {
+    opacity: 1;
+    margin: -20px;
+    box-shadow:0 0 10px 5px royalblue ;
+}
 
 
 h2{
