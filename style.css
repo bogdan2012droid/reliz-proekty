@@ -1,5 +1,5 @@
 body {
-    font-family:Arial, sans-serif;
+    font-family: Arial, sans-serif;
     margin: 0;
     padding: 0;
     background-color: #f0f8ff;
@@ -14,11 +14,13 @@ header {
 }
 
 h1 {
-    text-align: left;
+    text-shadow: 4px 2px indianred,8px 4px orange,12px 6px orchid;
     background-image: linear-gradient(Blue, lightblue);
     padding: 30px;
     border-radius: 5px;
     text-align: center;
+    letter-spacing: 10px;
+    
 }
 
 h1:hover::before{
@@ -28,12 +30,13 @@ h1:hover::before{
     display: inline-block;
     margin-right:15px ;
     opacity: 1;
+    transform: rotate(0.3turn)
 }
 
 h1:hover::after{
     content: url("/uploads/2021/03/click-38743_1280%201_0_1614962641.png"
     );
-
+    transform: rotate(0.3turn);
     width: 20px;
     display: inline-block;
     margin-left:15px ;
@@ -44,9 +47,11 @@ h1:hover::after{
 
 nav {
     text-align: center;
-    width: 100%;
-    background-color: #ff8c00;
-    padding: 10px;
+    backdrop-filter:blur(10px) ;
+    padding: irem;
+    margin-top: 10px;
+    
+
 }
 
 nav a {
@@ -88,7 +93,7 @@ section {
     padding: 20px;
     border-radius: 10px;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
-   
+    animation: fadeIn 1.5s ease-in-out;
 
 }
 
@@ -237,3 +242,29 @@ footer {
     margin-top: 0px;
 }
 
+
+
+
+
+        
+
+        header {
+            animation: fadeIn 1.5s ease-in-out;
+        }
+
+        
+
+        .project, .stat, .house, .coast, .turne {
+            animation: fadeIn 1.5s ease-in-out;
+            
+        }
+
+        a {
+            transition: transform 0.3s ease-in-out;
+        }
+
+        a:hover {
+            transform: scale(1.1);
+        }
+
+        
