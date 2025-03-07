@@ -1,18 +1,40 @@
 body {
-    font-family:cursive ;
-    background-image:linear-gradient(white, black);
+    font-family: cursive;
+    background-image: linear-gradient(white,lightgrey);
     margin: 0;
     padding: 0;
 }
 
 
-h2 {
-    text-align: left;
+
+
+h2{
+    
     background-image: linear-gradient(Blue, lightblue);
-    padding: 20px;
-    color: white;
+    padding: 30px;
     border-radius: 5px;
+    text-align: center;
 }
+
+h2:hover::before{
+    content: url("/uploads/2021/03/click-38743_1280%201_0_1614962641.png"
+    );
+    width: 20px;
+    display: inline-block;
+    margin-right:15px ;
+    opacity: 1;
+}
+
+h2:hover::after{
+    content: url("/uploads/2021/03/click-38743_1280%201_0_1614962641.png"
+    );
+
+    width: 20px;
+    display: inline-block;
+    margin-left:15px ;
+    opacity: 1;
+}
+
 
 h4, h5, h6 {
     font-size: 18px;
@@ -36,6 +58,38 @@ section.tourist {
     background-position: center;
     border-radius: 10px;
     padding: 40px;
+}
+
+
+.container {
+    display: flex;
+    justify-content: center;
+}
+
+.gallery {
+    display: flex;
+    width: 500px;
+    flex-wrap: wrap;
+}
+
+.gallery img {
+    opacity: 0.2;
+    width: 150px;
+    height: 200px;
+    
+}
+
+.gallery img:hover {
+    opacity: 1;
+    margin: -20px;
+    box-shadow:0 0 10px 5px royalblue ;
+}
+
+.text {
+    width: 300px;
+}
+.right {
+    text-align: right;
 }
 
 section.water {
@@ -93,4 +147,12 @@ footer {
 
     section {
         padding: 20px;
+    
+}
+}
+
+    h6{
+        margin: 15px;
+        padding: 15px;
+        font-size: 20px;
     }
