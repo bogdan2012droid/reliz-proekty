@@ -6,7 +6,7 @@ body {
 }
 
 .mail{
-   justify-content:center;
+   justify-content:space-around;
     display:flex;
 }
 
