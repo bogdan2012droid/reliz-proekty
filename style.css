@@ -5,8 +5,9 @@ body {
     background-color: #f0f8ff;
 }
 
-nav{
-    text-align:center;
+.mail{
+   justify-content:center;
+    display:flex;
 }
 
 header {
